@@ -1,4 +1,6 @@
-package com.xinghuan.thinking.in.spring.aop;
+package com.xinghuan.thinking.in.spring.aop.overview;
+
+import com.xinghuan.thinking.in.spring.aop.overview.service.EchoService;
 
 /**
  * @author shenchen
