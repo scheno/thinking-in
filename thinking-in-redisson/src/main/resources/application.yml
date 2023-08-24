@@ -1,0 +1,9 @@
+server:
+  port: 8888
+spring:
+  redis:
+    host: ${redis_host}
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/${MYSQL_DATABASE}
+    username: ${MYSQL_USERNAME:}
+    password: ${MYSQL_PASSWORD:}

@@ -12,10 +12,13 @@
     <modules>
         <module>thinking-in-java</module>
         <module>thinking-in-spring</module>
+        <module>thinking-in-spring-cloud</module>
+        <module>thinking-in-redisson</module>
     </modules>
 
     <properties>
-        <spring.version>5.2.2.RELEASE</spring.version>
+        <spring.version>5.3.23</spring.version>
+        <spring.boot.version>2.7.5</spring.boot.version>
     </properties>
 
     <!-- Spring 依赖管理 -->
@@ -52,30 +55,48 @@
                 <version>${spring.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+                <version>${spring.boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-jdbc</artifactId>
+                <version>${spring.boot.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
     <!-- Spring 依赖 -->
     <dependencies>
         <!-- Spring IoC 核心依赖 -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-        </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework</groupId>-->
+        <!--            <artifactId>spring-context</artifactId>-->
+        <!--        </dependency>-->
 
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-jdbc</artifactId>
-        </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework</groupId>-->
+        <!--            <artifactId>spring-jdbc</artifactId>-->
+        <!--        </dependency>-->
 
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-webmvc</artifactId>
-        </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework</groupId>-->
+        <!--            <artifactId>spring-webmvc</artifactId>-->
+        <!--        </dependency>-->
 
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework</groupId>-->
+        <!--            <artifactId>spring-webflux</artifactId>-->
+        <!--        </dependency>-->
+
+        <!-- 工具类 -->
         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-webflux</artifactId>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.28</version>
         </dependency>
     </dependencies>
 
