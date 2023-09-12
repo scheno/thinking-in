@@ -12,6 +12,7 @@
   <artifactId>thinking-in-spring-cloud</artifactId>
 
   <packaging>pom</packaging>
+
   <modules>
     <module>spring-cloud-gateway</module>
   </modules>
