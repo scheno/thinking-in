@@ -4,6 +4,12 @@ import org.springframework.util.ReflectionUtils;
 
 import java.lang.reflect.Method;
 
+/**
+ * Aop 类过滤 Demo
+ *
+ * @author xinghuan
+ * @since 2024/1/31 14:56
+ */
 public class TargetFilterDemo {
 
     public static void main(String[] args) throws ClassNotFoundException {

@@ -1,7 +1,9 @@
 package com.xinghuan.thinking.in.spring.aop.overview;
 
 /**
- * @author shenchen
+ * ClassLoader Demo
+ *
+ * @author xinghuan
  * @since 2023/6/6 17:50
  */
 public class ClassLoaderDemo {

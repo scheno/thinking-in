@@ -1,7 +1,7 @@
 package com.xinghuan.thinking.in.spring.aop.overview.service;
 
 /**
- * @author shenchen
+ * @author xinghuan
  * @since 2023/6/6 17:25
  */
 public interface EchoService {

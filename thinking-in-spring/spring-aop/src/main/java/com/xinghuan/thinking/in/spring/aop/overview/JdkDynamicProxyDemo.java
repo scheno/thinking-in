@@ -6,9 +6,12 @@ import java.lang.reflect.Proxy;
 
 import com.xinghuan.thinking.in.spring.aop.overview.service.DefaultEchoService;
 import com.xinghuan.thinking.in.spring.aop.overview.service.EchoService;
+import com.xinghuan.thinking.in.spring.aop.overview.service.ProxyEchoService;
 
 /**
- * @author shenchen
+ * Jdk 动态代理 Demo
+ *
+ * @author xinghuan
  * @since 2023/6/6 17:43
  */
 public class JdkDynamicProxyDemo {

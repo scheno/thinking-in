@@ -9,7 +9,9 @@ import com.xinghuan.thinking.in.spring.aop.overview.service.DefaultEchoService;
 import com.xinghuan.thinking.in.spring.aop.overview.service.EchoService;
 
 /**
- * @author shenchen
+ * Cglib 动态代理 Demo
+ *
+ * @author xinghuan
  * @since 2023/6/6 17:53
  */
 public class CglibProxyDemo {

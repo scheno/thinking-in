@@ -1,8 +1,8 @@
-package com.xinghuan.thinking.in.spring.aop.overview;
-
-import com.xinghuan.thinking.in.spring.aop.overview.service.EchoService;
+package com.xinghuan.thinking.in.spring.aop.overview.service;
 
 /**
+ * EchoService 子类，增强了 echo 方法
+ *
  * @author shenchen
  * @since 2023/6/6 17:28
  */
