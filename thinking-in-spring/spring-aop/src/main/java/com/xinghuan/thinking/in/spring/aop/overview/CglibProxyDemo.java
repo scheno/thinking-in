@@ -1,12 +1,12 @@
 package com.xinghuan.thinking.in.spring.aop.overview;
 
-import java.lang.reflect.Method;
+import com.xinghuan.thinking.in.spring.aop.overview.service.DefaultEchoService;
+import com.xinghuan.thinking.in.spring.aop.overview.service.EchoService;
 import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.MethodInterceptor;
 import org.springframework.cglib.proxy.MethodProxy;
 
-import com.xinghuan.thinking.in.spring.aop.overview.service.DefaultEchoService;
-import com.xinghuan.thinking.in.spring.aop.overview.service.EchoService;
+import java.lang.reflect.Method;
 
 /**
  * Cglib 动态代理 Demo

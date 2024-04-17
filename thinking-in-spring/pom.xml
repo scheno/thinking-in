@@ -12,74 +12,17 @@
   <artifactId>thinking-in-spring</artifactId>
   <packaging>pom</packaging>
 
-  <properties>
-    <spring.version>5.2.2.RELEASE</spring.version>
-  </properties>
-
   <modules>
     <module>spring-aop</module>
     <module>spring-bean</module>
+    <module>spring-mvc</module>
   </modules>
 
-  <dependencyManagement>
-    <dependencies>
-
-      <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-aop</artifactId>
-        <version>${spring.version}</version>
-      </dependency>
-
-      <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-context</artifactId>
-        <version>${spring.version}</version>
-      </dependency>
-
-      <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-jdbc</artifactId>
-        <version>${spring.version}</version>
-      </dependency>
-
-      <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-webflux</artifactId>
-        <version>${spring.version}</version>
-      </dependency>
-
-      <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-webmvc</artifactId>
-        <version>${spring.version}</version>
-      </dependency>
-
-    </dependencies>
-  </dependencyManagement>
-
-  <!-- Spring 依赖 -->
   <dependencies>
-    <!-- Spring IoC 核心依赖 -->
     <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-context</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-jdbc</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-webmvc</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-webflux</artifactId>
+      <groupId>org.hibernate.validator</groupId>
+      <artifactId>hibernate-validator</artifactId>
     </dependency>
   </dependencies>
-
 
 </project>

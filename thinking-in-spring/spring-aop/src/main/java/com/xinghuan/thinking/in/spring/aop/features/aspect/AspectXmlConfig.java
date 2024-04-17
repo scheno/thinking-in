@@ -1,7 +1,8 @@
 package com.xinghuan.thinking.in.spring.aop.features.aspect;
 
-import java.util.Random;
 import org.aspectj.lang.ProceedingJoinPoint;
+
+import java.util.Random;
 
 public class AspectXmlConfig {
 

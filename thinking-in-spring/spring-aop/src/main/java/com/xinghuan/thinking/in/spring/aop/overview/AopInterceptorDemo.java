@@ -6,7 +6,6 @@ import com.xinghuan.thinking.in.spring.aop.overview.interceptor.ExceptionInterce
 import com.xinghuan.thinking.in.spring.aop.overview.interceptor.FinallyInterceptor;
 import com.xinghuan.thinking.in.spring.aop.overview.service.DefaultEchoService;
 import com.xinghuan.thinking.in.spring.aop.overview.service.EchoService;
-import com.xinghuan.thinking.in.spring.aop.overview.service.ProxyEchoService;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
