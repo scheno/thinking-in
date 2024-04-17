@@ -3,14 +3,14 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.schening</groupId>
-        <artifactId>thinking-mybatis</artifactId>
+        <artifactId>thinking-in-mybatis</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>thinking-mybatis-v1</artifactId>
+    <artifactId>thinking-in-mybatis-v2</artifactId>
     <packaging>jar</packaging>
 
-    <name>thinking-mybatis-v1</name>
+    <name>thinking-mybatis-v2</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -18,10 +18,6 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>

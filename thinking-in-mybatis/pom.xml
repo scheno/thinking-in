@@ -2,16 +2,21 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.schening</groupId>
-        <artifactId>thinking-mybatis</artifactId>
+        <groupId>com.xinghuan</groupId>
+        <artifactId>thinking-in</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>thinking-mybatis-v2</artifactId>
-    <packaging>jar</packaging>
+    <groupId>com.schening</groupId>
+    <artifactId>thinking-in-mybatis</artifactId>
+    <packaging>pom</packaging>
 
-    <name>thinking-mybatis-v2</name>
+    <name>thinking-mybatis</name>
     <url>http://maven.apache.org</url>
+    <modules>
+        <module>thinking-in-mybatis-v1</module>
+        <module>thinking-in-mybatis-v2</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

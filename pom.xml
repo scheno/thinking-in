@@ -11,9 +11,9 @@
 
   <modules>
     <module>thinking-in-java</module>
-    <module>thinking-mybatis</module>
-    <module>thinking-in-spring</module>
+    <module>thinking-in-mybatis</module>
     <module>thinking-in-redisson</module>
+    <module>thinking-in-spring</module>
     <module>thinking-in-spring-cloud</module>
   </modules>
 
