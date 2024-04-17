@@ -11,6 +11,7 @@ public class AspectJAnnotationDemo {
         applicationContext.refresh();
         AspectConfiguration configuration = applicationContext.getBean(AspectConfiguration.class);
         System.out.println(configuration);
+        configuration.toString();
         applicationContext.close();
     }
 }

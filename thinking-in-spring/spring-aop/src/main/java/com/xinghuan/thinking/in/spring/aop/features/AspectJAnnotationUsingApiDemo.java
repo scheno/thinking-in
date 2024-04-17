@@ -17,7 +17,7 @@ public class AspectJAnnotationUsingApiDemo {
 
         AspectJProxyFactory proxyFactory = new AspectJProxyFactory(cache);
 
-        proxyFactory.addAspect(AspectConfiguration.class);
+//        proxyFactory.addAspect(AspectConfiguration.class);
 
         proxyFactory.setExposeProxy(true);
 
