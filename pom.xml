@@ -24,6 +24,10 @@
     <dubbo.version>2.7.8</dubbo.version>
     <maven.compiler.source>8</maven.compiler.source>
     <maven.compiler.target>8</maven.compiler.target>
+    <maven-flatten-plugin.version>1.2.5</maven-flatten-plugin.version>
+    <mybatis.version>3.5.9</mybatis.version>
+    <mybatis-spring-boot.version>2.2.2</mybatis-spring-boot.version>
+    <resilience4j.version>1.7.0</resilience4j.version>
   </properties>
 
   <dependencyManagement>
@@ -41,6 +45,30 @@
         <version>${spring-cloud.version}</version>
         <type>pom</type>
         <scope>import</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>org.mybatis</groupId>
+        <artifactId>mybatis</artifactId>
+        <version>${mybatis.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.mybatis.spring.boot</groupId>
+        <artifactId>mybatis-spring-boot-starter</artifactId>
+        <version>${mybatis-spring-boot.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>io.github.resilience4j</groupId>
+        <artifactId>resilience4j-framework-common</artifactId>
+        <version>${resilience4j.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>io.github.resilience4j</groupId>
+        <artifactId>resilience4j-spring-boot2</artifactId>
+        <version>${resilience4j.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>

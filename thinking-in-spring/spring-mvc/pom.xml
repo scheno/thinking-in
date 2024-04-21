@@ -15,6 +15,7 @@
     <modules>
         <module>biz-api</module>
         <module>biz-client</module>
+        <module>biz-data</module>
         <module>biz-web</module>
     </modules>
 </project>

@@ -1,0 +1,23 @@
+server:
+  port: 8080
+
+# Management \u914D\u7F6E
+management:
+  server:
+    port: 8081
+  endpoint:
+    env:
+      post:
+        enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+      basePath: /management
+    jmx:
+      exposure:
+        include: '*'
+
+  spring:
+    jmx:
+      enabled: true
