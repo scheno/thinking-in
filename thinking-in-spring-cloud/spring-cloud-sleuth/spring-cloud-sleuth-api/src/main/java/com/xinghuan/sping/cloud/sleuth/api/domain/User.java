@@ -1,4 +1,4 @@
-package com.xinghuan.sping.cloud.sleuth.client.domain;
+package com.xinghuan.sping.cloud.sleuth.api.domain;
 
 import java.io.Serializable;
 

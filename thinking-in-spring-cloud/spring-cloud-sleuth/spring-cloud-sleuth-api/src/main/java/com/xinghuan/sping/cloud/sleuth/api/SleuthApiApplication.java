@@ -1,4 +1,4 @@
-package com.xinghuan.sping.cloud.sleuth.client;
+package com.xinghuan.sping.cloud.sleuth.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
