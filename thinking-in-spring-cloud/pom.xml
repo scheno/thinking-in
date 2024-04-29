@@ -15,6 +15,8 @@
 
   <modules>
     <module>spring-cloud-gateway</module>
+    <module>spring-cloud-eureka</module>
+    <module>spring-cloud-sleuth</module>
   </modules>
 
 </project>
