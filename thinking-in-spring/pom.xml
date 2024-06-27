@@ -16,6 +16,7 @@
     <module>spring-aop</module>
     <module>spring-bean</module>
     <module>spring-mvc</module>
+      <module>spring-tx</module>
   </modules>
 
   <dependencies>
