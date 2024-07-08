@@ -46,7 +46,7 @@ public class EchoController {
 
     @GetMapping("/rest-template/{name}")
     public ApiResponse<String> restTemplateCall(@PathVariable String name) {
-        String url = "http://127.0.0.1:{port}/echo/user";
+        String url = "http://biz-client:{port}/user/register";
         User user = new User();
         user.setName(name);
         ApiResponse response = restTemplate.postForObject(url, user, ApiResponse.class, port);

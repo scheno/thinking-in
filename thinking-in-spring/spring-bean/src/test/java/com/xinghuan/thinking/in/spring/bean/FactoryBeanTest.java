@@ -2,6 +2,7 @@ package com.xinghuan.thinking.in.spring.bean;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.FactoryBean;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.stereotype.Component;
 
@@ -11,6 +12,7 @@ class FactoryBeanTest {
     void testFactoryBean() {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
         context.register(PrinterFactoryBean.class);
+        context.register(InkCartridge.class);
         context.refresh();
 
         Printer printerOne = context.getBean(Printer.class);
@@ -30,6 +32,9 @@ class FactoryBeanTest {
     @Component
     static class PrinterFactoryBean implements FactoryBean<Printer> {
 
+        @Autowired
+        private InkCartridge inkCartridge;
+
         @Override
         public Printer getObject() throws Exception {
             return new Printer();
@@ -47,6 +52,11 @@ class FactoryBeanTest {
         public void print(String message) {
             System.out.println(message);
         }
+
+    }
+
+    @Component
+    static class InkCartridge {
 
     }
 

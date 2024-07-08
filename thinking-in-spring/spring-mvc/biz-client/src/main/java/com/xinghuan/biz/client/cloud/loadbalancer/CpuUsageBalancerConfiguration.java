@@ -12,7 +12,7 @@ import org.springframework.core.env.Environment;
  * @author shenchen
  * @since 2024/4/21 17:08
  */
-@Configuration(proxyBeanMethods = false)
+//@Configuration(proxyBeanMethods = false)
 public class CpuUsageBalancerConfiguration {
 
     @Bean

@@ -1,5 +1,8 @@
+spring:
+  application:
+    name: user-service
 server:
-  port: 8080
+  port: 8088
 
 # Management \u914D\u7F6E
 management:
@@ -21,3 +24,9 @@ management:
   spring:
     jmx:
       enabled: true
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:12345/eureka
+    registryFetchIntervalSeconds: 10

@@ -15,6 +15,7 @@
     <module>thinking-in-redisson</module>
     <module>thinking-in-spring</module>
     <module>thinking-in-spring-cloud</module>
+    <module>thinking-in-starter</module>
   </modules>
 
   <properties>
